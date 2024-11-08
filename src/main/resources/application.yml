@@ -6,7 +6,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/simple_payment_db
     driver-class-name: org.postgresql.Driver
     username: postgres
-    password: Alex!123
+    password: password
   jpa:
     hibernate:
       ddl-auto: create
