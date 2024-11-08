@@ -1,0 +1,21 @@
+
+spring:
+  application:
+    name: SimplePaymentGateway
+  datasource:
+    url: jdbc:postgresql://localhost:5432/simple_payment_db
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: Alex!123
+  jpa:
+    hibernate:
+      ddl-auto: create
+  h2:
+    console:
+      enabled: true
+
+
+security:
+  jwt:
+    secret-key: 9b5167a3340fc7adc3937c19cac50aba15bf16bee615b997468809216a388068
+    expiration-time: 3600000 # in millliseconds
